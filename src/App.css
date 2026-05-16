@@ -803,6 +803,39 @@ nav ul a.nav-active {
   color: #1447c0;
 }
 
+/* ── FORM MESSAGES ── */
+.form-success {
+  background-color: #dcfce7;
+  color: #166534;
+  padding: 14px 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  max-width: 550px;
+  margin: 0 auto 20px;
+}
+
+.form-error {
+  background-color: #fee2e2;
+  color: #991b1b;
+  padding: 14px 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  max-width: 550px;
+  margin: 0 auto 20px;
+}
+
+.dark .form-success {
+  background-color: #14532d;
+  color: #86efac;
+}
+
+.dark .form-error {
+  background-color: #7f1d1d;
+  color: #fca5a5;
+}
+
 /* ── FOOTER ── */
 footer {
   text-align: center;
