@@ -97,6 +97,229 @@ nav ul a:hover {
   background-color: #1447c0;
 }
 
+/* ── PARTICLES ── */
+.particles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.particle {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background: #1a56db;
+  border-radius: 50%;
+  opacity: 0.15;
+  animation: float 6s infinite ease-in-out;
+}
+
+.particle:nth-child(1) {
+  left: 5%;
+  top: 20%;
+  animation-duration: 6s;
+  animation-delay: 0s;
+  width: 6px;
+  height: 6px;
+}
+.particle:nth-child(2) {
+  left: 15%;
+  top: 60%;
+  animation-duration: 8s;
+  animation-delay: 1s;
+  width: 10px;
+  height: 10px;
+}
+.particle:nth-child(3) {
+  left: 25%;
+  top: 30%;
+  animation-duration: 7s;
+  animation-delay: 2s;
+  width: 5px;
+  height: 5px;
+}
+.particle:nth-child(4) {
+  left: 35%;
+  top: 75%;
+  animation-duration: 9s;
+  animation-delay: 0.5s;
+  width: 8px;
+  height: 8px;
+}
+.particle:nth-child(5) {
+  left: 45%;
+  top: 15%;
+  animation-duration: 6s;
+  animation-delay: 1.5s;
+  width: 12px;
+  height: 12px;
+}
+.particle:nth-child(6) {
+  left: 55%;
+  top: 50%;
+  animation-duration: 8s;
+  animation-delay: 3s;
+  width: 6px;
+  height: 6px;
+}
+.particle:nth-child(7) {
+  left: 65%;
+  top: 25%;
+  animation-duration: 7s;
+  animation-delay: 0s;
+  width: 9px;
+  height: 9px;
+}
+.particle:nth-child(8) {
+  left: 75%;
+  top: 70%;
+  animation-duration: 6s;
+  animation-delay: 2s;
+  width: 5px;
+  height: 5px;
+}
+.particle:nth-child(9) {
+  left: 85%;
+  top: 40%;
+  animation-duration: 9s;
+  animation-delay: 1s;
+  width: 11px;
+  height: 11px;
+}
+.particle:nth-child(10) {
+  left: 90%;
+  top: 80%;
+  animation-duration: 7s;
+  animation-delay: 0.5s;
+  width: 7px;
+  height: 7px;
+}
+.particle:nth-child(11) {
+  left: 10%;
+  top: 85%;
+  animation-duration: 8s;
+  animation-delay: 2.5s;
+  width: 6px;
+  height: 6px;
+}
+.particle:nth-child(12) {
+  left: 20%;
+  top: 45%;
+  animation-duration: 6s;
+  animation-delay: 1s;
+  width: 10px;
+  height: 10px;
+}
+.particle:nth-child(13) {
+  left: 30%;
+  top: 10%;
+  animation-duration: 9s;
+  animation-delay: 3s;
+  width: 5px;
+  height: 5px;
+}
+.particle:nth-child(14) {
+  left: 40%;
+  top: 55%;
+  animation-duration: 7s;
+  animation-delay: 0s;
+  width: 8px;
+  height: 8px;
+}
+.particle:nth-child(15) {
+  left: 50%;
+  top: 90%;
+  animation-duration: 6s;
+  animation-delay: 1.5s;
+  width: 12px;
+  height: 12px;
+}
+.particle:nth-child(16) {
+  left: 60%;
+  top: 35%;
+  animation-duration: 8s;
+  animation-delay: 2s;
+  width: 6px;
+  height: 6px;
+}
+.particle:nth-child(17) {
+  left: 70%;
+  top: 65%;
+  animation-duration: 7s;
+  animation-delay: 0.5s;
+  width: 9px;
+  height: 9px;
+}
+.particle:nth-child(18) {
+  left: 80%;
+  top: 20%;
+  animation-duration: 9s;
+  animation-delay: 1s;
+  width: 5px;
+  height: 5px;
+}
+.particle:nth-child(19) {
+  left: 92%;
+  top: 55%;
+  animation-duration: 6s;
+  animation-delay: 2.5s;
+  width: 11px;
+  height: 11px;
+}
+.particle:nth-child(20) {
+  left: 3%;
+  top: 50%;
+  animation-duration: 8s;
+  animation-delay: 3s;
+  width: 7px;
+  height: 7px;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px) translateX(0px);
+    opacity: 0.15;
+  }
+  25% {
+    transform: translateY(-20px) translateX(10px);
+    opacity: 0.3;
+  }
+  50% {
+    transform: translateY(-35px) translateX(-10px);
+    opacity: 0.15;
+  }
+  75% {
+    transform: translateY(-15px) translateX(15px);
+    opacity: 0.25;
+  }
+  100% {
+    transform: translateY(0px) translateX(0px);
+    opacity: 0.15;
+  }
+}
+
+.dark .particle {
+  background: #60a5fa;
+}
+
+#hero {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
 /* ── ABOUT ── */
 #about {
   padding: 80px;
@@ -145,7 +368,7 @@ nav ul a:hover {
   font-size: 0.95rem;
 }
 
-/* ── SKILLS ── */
+/* ── SKILLS UPDATED ── */
 #skills {
   padding: 80px;
   background-color: #f8fafc;
@@ -158,36 +381,83 @@ nav ul a:hover {
   margin-bottom: 40px;
 }
 
-#skills > div {
+.skills-grid {
   display: flex;
   flex-wrap: wrap;
   gap: 25px;
   justify-content: center;
 }
 
-#skills > div > div {
+.skill-card {
   background: #ffffff;
   border-radius: 12px;
   padding: 25px 30px;
-  min-width: 200px;
+  min-width: 280px;
+  max-width: 340px;
+  flex: 1;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
 }
 
-#skills h3 {
+.skill-card h3 {
   color: #1e293b;
-  margin-bottom: 12px;
+  margin-bottom: 16px;
   font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #1a56db;
 }
 
-#skills span {
-  display: inline-block;
-  background-color: #eff6ff;
-  color: #1a56db;
-  padding: 5px 12px;
-  border-radius: 20px;
-  font-size: 0.85rem;
-  margin: 4px 3px;
+.skill-bar-wrapper {
+  margin-bottom: 14px;
+}
+
+.skill-bar-label {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  font-size: 0.88rem;
+  color: #475569;
   font-weight: 500;
+}
+
+.skill-bar-bg {
+  background-color: #e2e8f0;
+  border-radius: 20px;
+  height: 8px;
+  overflow: hidden;
+}
+
+.skill-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #1a56db, #60a5fa);
+  border-radius: 20px;
+  transition: width 1.5s ease-in-out;
+}
+
+/* ── DARK MODE SKILLS UPDATED ── */
+.dark #skills {
+  background-color: #0f172a;
+}
+
+.dark #skills h2 {
+  color: #60a5fa;
+}
+
+.dark .skill-card {
+  background-color: #1e293b;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.dark .skill-card h3 {
+  color: #60a5fa;
+}
+
+.dark .skill-bar-label {
+  color: #cbd5e1;
+}
+
+.dark .skill-bar-bg {
+  background-color: #334155;
 }
 
 /* ── PROJECTS ── */
@@ -419,28 +689,6 @@ footer {
   color: #60a5fa;
 }
 
-.dark #skills {
-  background-color: #0f172a;
-}
-
-.dark #skills h2 {
-  color: #60a5fa;
-}
-
-.dark #skills > div > div {
-  background-color: #1e293b;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
-}
-
-.dark #skills h3 {
-  color: #e2e8f0;
-}
-
-.dark #skills span {
-  background-color: #1e3a5f;
-  color: #60a5fa;
-}
-
 .dark #projects {
   background-color: #1e293b;
 }
@@ -530,4 +778,181 @@ nav button {
 nav button:hover {
   background-color: #1a56db;
   color: white;
+}
+
+/* ══════════════════════════════
+   RESPONSIVE DESIGN
+══════════════════════════════ */
+
+/* ── TABLET (max 1024px) ── */
+@media (max-width: 1024px) {
+  nav {
+    padding: 20px 40px;
+  }
+
+  #hero h1 {
+    font-size: 2.5rem;
+  }
+
+  #about {
+    padding: 60px 40px;
+  }
+
+  #skills {
+    padding: 60px 40px;
+  }
+
+  #projects {
+    padding: 60px 40px;
+  }
+
+  #contact {
+    padding: 60px 40px;
+  }
+}
+
+/* ── MOBILE (max 768px) ── */
+@media (max-width: 768px) {
+  /* Navbar */
+  nav {
+    flex-direction: column;
+    padding: 15px 20px;
+    gap: 12px;
+    text-align: center;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  /* Hero */
+  #hero {
+    padding: 60px 20px;
+    min-height: 80vh;
+  }
+
+  #hero h1 {
+    font-size: 2rem;
+  }
+
+  #hero h2 {
+    font-size: 1.2rem;
+  }
+
+  #hero p {
+    font-size: 1rem;
+  }
+
+  /* About */
+  #about {
+    padding: 50px 20px;
+  }
+
+  #about div {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  #about div div {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  /* Skills */
+  #skills {
+    padding: 50px 20px;
+  }
+
+  .skills-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skill-card {
+    width: 100%;
+    max-width: 400px;
+    min-width: unset;
+  }
+
+  /* Projects */
+  #projects {
+    padding: 50px 20px;
+  }
+
+  #projects > div {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #projects > div > div {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  /* Contact */
+  #contact {
+    padding: 50px 20px;
+  }
+
+  #contact > div {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  #contact form {
+    width: 100%;
+  }
+}
+
+/* ── SMALL MOBILE (max 480px) ── */
+@media (max-width: 480px) {
+  #hero h1 {
+    font-size: 1.7rem;
+  }
+
+  #hero h2 {
+    font-size: 1rem;
+  }
+
+  #hero a {
+    padding: 12px 25px;
+    font-size: 0.9rem;
+  }
+
+  #about h2,
+  #skills h2,
+  #projects h2,
+  #contact h2 {
+    font-size: 1.6rem;
+  }
+
+  #projects > div > div {
+    padding: 20px;
+  }
+
+  nav ul {
+    gap: 10px;
+  }
+
+  nav ul a {
+    font-size: 0.9rem;
+  }
+
+  nav button {
+    padding: 6px 12px;
+    font-size: 0.8rem;
+  }
+
+  .skill-card {
+    padding: 20px;
+  }
+
+  footer {
+    font-size: 0.8rem;
+    padding: 20px;
+  }
 }
