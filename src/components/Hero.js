@@ -27,7 +27,12 @@ function Hero() {
         <p data-aos="fade-down" data-aos-delay="200">
           I build end-to-end web applications using Python, React, Node.js and MySQL.
         </p>
-        <a href="#projects" data-aos="fade-up" data-aos-delay="300">View My Work</a>
+        <div className="hero-buttons" data-aos="fade-up" data-aos-delay="300">
+          <a href="#projects">View My Work</a>
+          <a href="/my-portfolio/Ambika_Sharma_Resume.pdf" download="Ambika_sharma_resume.pdf">
+            Download Resume ↓
+          </a>
+        </div>
       </div>
     </section>
   );
