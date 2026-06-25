@@ -8,10 +8,11 @@ const projects = [
     github: "https://github.com/ambikaas27",
   },
   {
-    title: "Developer Portfolio Website",
-    description: "A dynamic personal portfolio showcasing projects, skills and experience. Features dark/light mode, smooth animations and a Python backend for the contact form.",
-    tech: ["React", "Python", "MySQL", "CSS"],
-    github: "https://ambikaas27.github.io/my-portfolio",
+  title: "Developer Portfolio Website",
+  description: "Personal developer portfolio built with React — features typing animation, scroll animations (AOS), dark/light mode, custom cursor, loading screen, working contact form (EmailJS) and fully responsive design.",
+  tech: ["React", "JavaScript", "CSS", "EmailJS"],
+  github: "https://ambikaas27.github.io/my-portfolio",
+
   },
 ];
 
