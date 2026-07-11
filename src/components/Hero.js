@@ -29,9 +29,9 @@ function Hero() {
         </p>
         <div className="hero-buttons" data-aos="fade-up" data-aos-delay="300">
           <a href="#projects">View My Work</a>
-          <a href="/my-portfolio/Ambika_Sharma_Resume.pdf" download="Ambika_sharma_resume.pdf">
-            Download Resume ↓
-          </a>
+          <a href={process.env.PUBLIC_URL + "/Ambika_sharma_resume.pdf"} download="Ambika_sharma_resume.pdf">
+  Download Resume ↓
+</a>
         </div>
       </div>
     </section>
