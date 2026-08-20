@@ -2,18 +2,19 @@ import React from 'react';
 
 const projects = [
   {
+    title: "Online Education Platform",
+    description: "A full-stack LMS with role-based access for students, instructors and admins. Features secure authentication, RBAC, normalized DB schemas and student progress tracking.",
+    tech: ["PHP", "MySQL", "JavaScript", "Bootstrap"],
+    github: "http://studyadda.infinityfreeapp.com",
+  },
+  {
   title: "Developer Portfolio Website",
   description: "Personal developer portfolio built with React — features typing animation, scroll animations (AOS), dark/light mode, custom cursor, loading screen, working contact form (EmailJS) and fully responsive design.",
   tech: ["React", "JavaScript", "CSS", "EmailJS"],
   github: "https://ambikaas27.github.io/my-portfolio",
 
   },
-  {
-    title: "AI Resume Analyzer",
-    description: "A resume analysis tool that compares resumes with job descriptions using keyword matching. Extracts text from PDF resumes, calculates ATS match scores, identifies missing skills and generates personalized improvement suggestions.",
-    tech: ["Python", "HTML", "CSS", "Bootstrap", "JavaScript"],
-    github: "https://github.com/ambikaas27",
-  },
+  
 ];
 
 function Projects() {
