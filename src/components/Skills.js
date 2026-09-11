@@ -9,8 +9,6 @@ const skills = [
   ]},
   { category: "Frameworks", items: [
     { name: "React", level: 60 },
-    { name: "Node.js", level: 50 },
-    { name: "Express", level: 50 },
     { name: "Bootstrap", level: 80 },
   ]},
   { category: "Database", items: [

@@ -29,7 +29,7 @@ function Hero() {
         </p>
         <div className="hero-buttons" data-aos="fade-up" data-aos-delay="300">
           <a href="#projects">View My Work</a>
-          <a href={process.env.PUBLIC_URL + "/Ambika_sharma_resume.pdf"} download="Ambika_sharma_resume.pdf">
+          <a href={process.env.PUBLIC_URL + "/Ambika-sharma-resume.pdf"} download="Ambika-sharma-resume.pdf">
   Download Resume ↓
 </a>
         </div>
