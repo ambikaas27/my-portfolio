@@ -25,7 +25,7 @@ function Hero() {
           repeat={Infinity}
         />
         <p data-aos="fade-down" data-aos-delay="200">
-          I build end-to-end web applications using Python, React, Node.js and MySQL.
+          I build end-to-end web applications using PHP, MySQL, JavaScript and React.
         </p>
         <div className="hero-buttons" data-aos="fade-up" data-aos-delay="300">
           <a href="#projects">View My Work</a>
