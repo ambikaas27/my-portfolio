@@ -5,7 +5,7 @@ function About() {
     <section id="about">
       <h2 data-aos="fade-up">About Me</h2>
       <p data-aos="fade-up" data-aos-delay="100">
-        I'm a Full Stack Developer from Varanasi, India with a B.Tech in
+        I'm a Full Stack Developer with a B.Tech in
         Computer Science. I have hands-on experience building end-to-end
         web applications and completed an internship as a Web Developer
         at Boot & Boost Entrepreneur LLP.
